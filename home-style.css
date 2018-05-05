@@ -1,0 +1,1030 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0px;
+	background-color: black;
+	z-index: 100;
+	text-align: center;
+}
+input {
+	position: fixed;
+	top: 85%;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	background-color: #FF6347;
+	z-index: 100;
+	text-align: center;
+	border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 8px;
+    color: white;
+}
+input:hover {
+	background-color: white;
+	color: #FF6347;
+}
+.btn {
+    border: none;
+    padding: 20px 50px;
+    font-size: 15px;
+    letter-spacing: 8px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    color: #FF6347;
+}
+.btn:hover {
+	color: white;
+}
+.column {
+    float: left;
+    width: 20%;
+    padding: 0;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+img {
+	height: 260px;
+	width: auto;
+	filter: grayscale(100%);
+}
+.column.one:hover .overlay1 {
+	opacity: 1;
+}
+.overlay1 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+.column.one:hover .overlay2 {
+	opacity: 1;
+}
+.overlay2 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+.column.one:hover .overlay3 {
+	opacity: 1;
+}
+.overlay3 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+
+.column.six:hover .overlay4 {
+	opacity: 1;
+}
+.overlay4 {
+  	position: absolute;
+  	top: 264px;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+.column.six:hover .overlay5 {
+	opacity: 1;
+}
+.overlay5 {
+  	position: absolute;
+  	top: 264px;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+.column.six:hover .overlay6 {
+	opacity: 1;
+}
+.overlay6 {
+  	position: absolute;
+  	top: 264px;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+
+.column.two:hover .overlay7 {
+	opacity: 1;
+}
+.overlay7 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 20%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+
+.column.four:hover .overlay8 {
+	opacity: 1;
+}
+.overlay8 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 60%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+.column.four:hover .overlay9 {
+	opacity: 1;
+}
+.overlay9 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 60%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+.column.five:hover .overlay10 {
+	opacity: 1;
+}
+.overlay10 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 80%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+
+.column.seven:hover .overlay11 {
+	opacity: 1;
+}
+.overlay11 {
+  	position: absolute;
+  	top: 264px;
+  	bottom: 0;
+  	left: 20%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+
+.column.eight:hover .overlay12 {
+	opacity: 1;
+}
+.overlay12 {
+  	position: absolute;
+  	top: 264px;
+  	bottom: 0;
+  	left: 40%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+.column.eight:hover .overlay13 {
+	opacity: 1;
+}
+.overlay13 {
+  	position: absolute;
+  	top: 264px;
+  	bottom: 0;
+  	left: 40%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+.column.eight:hover .overlay14 {
+	opacity: 1;
+}
+.overlay14 {
+  	position: absolute;
+  	top: 264px;
+  	bottom: 0;
+  	left: 40%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+.column.nine:hover .overlay15 {
+	opacity: 1;
+}
+.overlay15 {
+  	position: absolute;
+  	top: 264px;
+  	bottom: 0;
+  	left: 60%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+
+.column.ten:hover .overlay16 {
+	opacity: 1;
+}
+.overlay16 {
+  	position: absolute;
+  	top: 264px;
+  	bottom: 0;
+  	left: 80%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+
+.column.twelf:hover .overlay17 {
+	opacity: 1;
+}
+.overlay17 {
+  	position: absolute;
+  	top: 528px;
+  	bottom: 0;
+  	left: 20%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+
+.column.twelf:hover .overlay18 {
+	opacity: 1;
+}
+.overlay18 {
+  	position: absolute;
+  	top: 528px;
+  	bottom: 0;
+  	left: 20%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+
+.column.thirteen:hover .overlay19 {
+	opacity: 1;
+}
+.overlay19 {
+  	position: absolute;
+  	top: 528px;
+  	bottom: 0;
+  	left: 40%;
+  	right: 0;
+  	height: 260px;
+  	width: auto;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: black;
+}
+
+.column.fourteen:hover .overlay20 {
+  opacity: 1;
+}
+.overlay20 {
+    position: absolute;
+    top: 528px;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.fifteen:hover .overlay21 {
+  opacity: 1;
+}
+.overlay21 {
+    position: absolute;
+    top: 528px;
+    bottom: 0;
+    left: 80%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.fifteen:hover .overlay22 {
+  opacity: 1;
+}
+.overlay22 {
+    position: absolute;
+    top: 528px;
+    bottom: 0;
+    left: 80%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.sixteen:hover .overlay23 {
+  opacity: 1;
+}
+.overlay23 {
+    position: absolute;
+    top: 792px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.sixteen:hover .overlay24 {
+  opacity: 1;
+}
+.overlay24 {
+    position: absolute;
+    top: 792px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.sixteen:hover .overlay25 {
+  opacity: 1;
+}
+.overlay25 {
+    position: absolute;
+    top: 792px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.seventeen:hover .overlay26 {
+  opacity: 1;
+}
+.overlay26 {
+    position: absolute;
+    top: 792px;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.seventeen:hover .overlay27 {
+  opacity: 1;
+}
+.overlay27 {
+    position: absolute;
+    top: 792px;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.eighteen:hover .overlay28 {
+  opacity: 1;
+}
+.overlay28 {
+    position: absolute;
+    top: 792px;
+    bottom: 0;
+    left: 40%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.nineteen:hover .overlay29 {
+  opacity: 1;
+}
+.overlay29 {
+    position: absolute;
+    top: 792px;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.nineteen:hover .overlay30 {
+  opacity: 1;
+}
+.overlay30 {
+    position: absolute;
+    top: 792px;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.twenty:hover .overlay31 {
+  opacity: 1;
+}
+.overlay31 {
+    position: absolute;
+    top: 792px;
+    bottom: 0;
+    left: 80%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.twenty:hover .overlay32 {
+  opacity: 1;
+}
+.overlay32 {
+    position: absolute;
+    top: 792px;
+    bottom: 0;
+    left: 80%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.tweone :hover .overlay33 {
+  opacity: 1;
+}
+.overlay33 {
+    position: absolute;
+    top: 1056px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.tweone :hover .overlay34 {
+  opacity: 1;
+}
+.overlay34 {
+    position: absolute;
+    top: 1056px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.twetwo :hover .overlay35 {
+  opacity: 1;
+}
+.overlay35 {
+    position: absolute;
+    top: 1056px;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.twetwo :hover .overlay36 {
+  opacity: 1;
+}
+.overlay36 {
+    position: absolute;
+    top: 1056px;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.twefour :hover .overlay37 {
+  opacity: 1;
+}
+.overlay37 {
+    position: absolute;
+    top: 1056px;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.twefour :hover .overlay38 {
+  opacity: 1;
+}
+.overlay38 {
+    position: absolute;
+    top: 1056px;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.twefive :hover .overlay39 {
+  opacity: 1;
+}
+.overlay39 {
+    position: absolute;
+    top: 1056px;
+    bottom: 0;
+    left: 80%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.twesix :hover .overlay40 {
+  opacity: 1;
+}
+.overlay40 {
+    position: absolute;
+    top: 1320px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.twesix :hover .overlay41 {
+  opacity: 1;
+}
+.overlay41 {
+    position: absolute;
+    top: 1320px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.tweeight :hover .overlay42 {
+  opacity: 1;
+}
+.overlay42 {
+    position: absolute;
+    top: 1320px;
+    bottom: 0;
+    left: 40%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.twenine :hover .overlay43 {
+    opacity: 1;
+}
+.overlay43 {
+    position: absolute;
+    top: 1320px;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.thi :hover .overlay44 {
+    opacity: 1;
+}
+.overlay44 {
+    position: absolute;
+    top: 1320px;
+    bottom: 0;
+    left: 80%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.thione :hover .overlay45 {
+    opacity: 1;
+}
+.overlay45 {
+    position: absolute;
+    top: 1584px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.thione :hover .overlay46 {
+    opacity: 1;
+}
+.overlay46 {
+    position: absolute;
+    top: 1584px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.thitwo :hover .overlay47 {
+    opacity: 1;
+}
+.overlay47 {
+    position: absolute;
+    top: 1584px;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.thitwo :hover .overlay48 {
+    opacity: 1;
+}
+.overlay48 {
+    position: absolute;
+    top: 1584px;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.thifour :hover .overlay49 {
+    opacity: 1;
+}
+.overlay49 {
+    position: absolute;
+    top: 1584px;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.thifive :hover .overlay50 {
+    opacity: 1;
+}
+.overlay50 {
+    position: absolute;
+    top: 1584px;
+    bottom: 0;
+    left: 80%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.thisix :hover .overlay51 {
+    opacity: 1;
+}
+.overlay51 {
+    position: absolute;
+    top: 1848px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.thiseven :hover .overlay52 {
+    opacity: 1;
+}
+.overlay52 {
+    position: absolute;
+    top: 1848px;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.thieight :hover .overlay53 {
+    opacity: 1;
+}
+.overlay53 {
+    position: absolute;
+    top: 1848px;
+    bottom: 0;
+    left: 40%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.thinine :hover .overlay54 {
+    opacity: 1;
+}
+.overlay54 {
+    position: absolute;
+    top: 1848px;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.for :hover .overlay55 {
+    opacity: 1;
+}
+.overlay55 {
+    position: absolute;
+    top: 1848px;
+    bottom: 0;
+    left: 80%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.forone :hover .overlay56 {
+    opacity: 1;
+}
+.overlay56 {
+    position: absolute;
+    top: 2112px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.fortwo :hover .overlay57 {
+    opacity: 1;
+}
+.overlay57 {
+    position: absolute;
+    top: 2112px;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.forthree :hover .overlay58 {
+    opacity: 1;
+}
+.overlay58 {
+    position: absolute;
+    top: 2112px;
+    bottom: 0;
+    left: 40%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.forfour :hover .overlay59 {
+    opacity: 1;
+}
+.overlay59 {
+    position: absolute;
+    top: 2112px;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.column.forfive :hover .overlay60 {
+    opacity: 1;
+}
+.overlay60 {
+    position: absolute;
+    top: 2112px;
+    bottom: 0;
+    left: 80%;
+    right: 0;
+    height: 260px;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+/*.screaming {
+	color: #FA8072;
+}
+.crying {
+	color: #AFEEEE;
+}
+.fainting {
+	color: #FFDEAD;
+}
+.calming {
+	color: #00FA9A;
+}
+.kissing {
+	color: #FF69B4;
+}*/
